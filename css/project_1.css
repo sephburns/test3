@@ -2,17 +2,13 @@ body {
 	background: black;
 	margin: 0;
 	padding: 0;
-    overflow-x: hidden; 
-    overflow-y: hidden;
-}
-
-
 }
 
 * {
 
 	outline: 1px dashed white; 
 }
+
 
 /* Class for universal padding' */
 
@@ -50,3 +46,6 @@ body {
 }
 
 
+.ui-loader {
+	display: none;
+}
