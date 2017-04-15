@@ -1,0 +1,19 @@
+body {
+	background: black;
+	width: 100000px;
+}
+
+* {
+
+	outline: 1px dashed white; 
+}
+
+/* Class for universal padding' */
+
+#character {
+	width: 100px;
+	height: 100px;
+	position: fixed;
+	bottom: 100px;
+	right: 50%;
+}
