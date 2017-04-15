@@ -3,10 +3,6 @@ body {
 	width: 100000px;
 }
 
-#canvas:focus { 
-    background-color: yellow;
-}
-
 #canvas:hover { 
     background-color: red;
 }
