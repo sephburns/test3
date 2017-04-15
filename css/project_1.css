@@ -3,6 +3,10 @@ body {
 	width: 100000px;
 }
 
+body:active { 
+    background-color: yellow;
+}
+
 * {
 
 	outline: 1px dashed white; 
