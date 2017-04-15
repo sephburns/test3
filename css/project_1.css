@@ -17,6 +17,7 @@ body {
 	position: fixed;
 	top:380px;
 	left: 87.5px;
+	z-index: 10001px;
 }
 
 /* this is styling for a jQuery test */
@@ -28,9 +29,10 @@ body {
 
 #canvas {
 	width: 2250px;
-	height: 667px;
+	height: 100%;
 	position: relative;
 	min-width: 375px;
+	z-index: 10000px;
 }
 
 #gift {
@@ -39,6 +41,7 @@ body {
 	position: absolute;
 	top: 360px;
 	right: 0px;
+	z-index: 10001px;
 }
 
 
