@@ -1,11 +1,5 @@
 body {
 	background: black;
-	width: 100000px;
-}
-
-
-#canvas:active { 
-    background-color: red;
 }
 
 * {
@@ -15,15 +9,34 @@ body {
 
 /* Class for universal padding' */
 
-#canvas {
-	height: 600px;
-	background-color: white;
-}
-
 #character {
 	width: 100px;
 	height: 100px;
 	position: fixed;
-	bottom: 100px;
-	right: 50%;
+	top:380px;
+	left: 87.5px;
 }
+
+/* this is styling for a jQuery test */
+
+.myClass {
+	background-color: #36819e;
+	font-size: 100px;
+}
+
+#canvas {
+	width: 2250px;
+	height: 667px;
+	position: relative;
+	min-width: 375px;
+}
+
+#gift {
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	top: 360px;
+	right: 0px;
+}
+
+
