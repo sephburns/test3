@@ -3,7 +3,8 @@ body {
 	width: 100000px;
 }
 
-#canvas:hover { 
+
+#canvas:active { 
     background-color: red;
 }
 
