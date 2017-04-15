@@ -3,7 +3,7 @@ body {
 	width: 100000px;
 }
 
-body:active { 
+body:focus { 
     background-color: yellow;
 }
 
