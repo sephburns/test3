@@ -4,11 +4,9 @@ body {
 	overflow: hidden; 
 }
 
-/* * {
-
-	outline: 1px dashed white; 
+* {
 	overflow: hidden; 
-} */
+}
 
 a {
 	width: 100%;
