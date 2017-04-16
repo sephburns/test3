@@ -26,6 +26,7 @@ a {
 	position: relative;
 	min-width: 1024px;
 	height:768px;
+
 }
 
 #bg {
@@ -38,6 +39,7 @@ a {
 
 #pageone, #bg {
 	width: 6144px;
+	overflow: hidden; 
 }
 
 #gift {
