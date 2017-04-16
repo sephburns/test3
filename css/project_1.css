@@ -1,15 +1,14 @@
 body {
-	background: black;
 	margin: 0;
 	padding: 0;
 	overflow: hidden; 
 }
 
-* {
+/* * {
 
 	outline: 1px dashed white; 
 	overflow: hidden; 
-}
+} */
 
 a {
 	width: 100%;
@@ -20,7 +19,6 @@ a {
 .myClass {
 	background-image: url("jan.gif");
 	background-repeat: no-repeat;
-	background-color: #36819e;
 }
 
 #pageone {
@@ -44,26 +42,26 @@ a {
 }
 
 #gift {
-	width: 100px;
-	height: 100px;
 	position: absolute;
 	right: 25%;
+	background-image: url("trophy.png");
+	background-repeat: no-repeat;
 }
 
 #character {
-	width: 168px;
-	height: 184px;
 	position: fixed;
 	left: 25%;
 }
 
-.stationary {
-	background-image: url("jan_stationary.gif");
+#gift, #character {
+	width: 168px;
+	height: 184px;
+	top:404px;
+	z-index: 10001px;
 }
 
-#gift, #character {
-	top:380px;
-	z-index: 10001px;
+.stationary {
+	background-image: url("jan_stationary.gif");
 }
 
 .ui-loader {
