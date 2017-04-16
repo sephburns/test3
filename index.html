@@ -33,8 +33,6 @@ $(document).on("pagecreate","#pageone",function(){
 
 <!--$('#cir').animate({ height: "+=10" });-->
 
-v2
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -42,44 +40,42 @@ v2
 
 <meta name="viewport" content="width=device-width">
 <link rel="stylesheet" href="css/project_1.css">
-<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+<!--<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
 <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
 <script>
 
 	$(document).on("pagecreate","#pageone",function boxSize(){
-  		$("#canvas").on("swipeleft",function(){
+  		$("#pageone").on("swipeleft",function(){
 
-    		$('#canvas').animate({ width: "-=375px" });
+    		$('#pageone').animate({ width: "-=375px" });
 
-    		$( "#canvas" ).addClass( "myClass" );
+    		$( "#pageone" ).addClass( "myClass" );
 
     		setTimeout(working, 3000);
 
   		});
 
   		function working() {
-  			$( "#canvas" ).removeClass( "myClass" );
+  			$( "#pageone" ).removeClass( "myClass" );
   		}
 
 	});
 
-</script>
+</script>-->
 
 </head>
 
 <body>
 
-<div data-role="page" id="pageone">
+  <div id="testbox"></div>
+<!--<div data-role="page" id="pageone">
 
-    <div id="canvas">
+    <div id="character"></div>
 
-    	<div id="character"></div>
+    <div id="gift"></div>
 
-    	<div id="gift"></div>
 
-    </div>
-
-</div>
+</div>-->
 
 </body>
 
