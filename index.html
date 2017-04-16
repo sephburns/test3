@@ -40,42 +40,50 @@ $(document).on("pagecreate","#pageone",function(){
 
 <meta name="viewport" content="width=device-width">
 <link rel="stylesheet" href="css/project_1.css">
-<!--<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
 <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
 <script>
 
 	$(document).on("pagecreate","#pageone",function boxSize(){
   		$("#pageone").on("swipeleft",function(){
 
-    		$('#pageone').animate({ width: "-=375px" });
+    		$('#pageone').animate({ width: "-=1024px" });
 
-    		$( "#pageone" ).addClass( "myClass" );
+        $( "#character" ).removeClass( "stationary" );
+
+    		$( "#character" ).addClass( "myClass" );
 
     		setTimeout(working, 3000);
 
   		});
 
   		function working() {
-  			$( "#pageone" ).removeClass( "myClass" );
+  			$( "#character" ).removeClass( "myClass" );
+
+        $( "#character" ).addClass( "stationary" );
   		}
 
 	});
 
-</script>-->
+</script>
 
 </head>
 
 <body>
 
-  <div id="testbox"></div>
-<!--<div data-role="page" id="pageone">
+  <div data-role="page" id="pageone">
 
-    <div id="character"></div>
+    <div id="bg"></div>
 
-    <div id="gift"></div>
+    <div id="character" class="stationary"></div>
 
+    <div id="gift">
 
-</div>-->
+      <a href="http://www.wiggle.co.uk/voucher?orID=6224475053&VID=0f5542-363512"></a>
+
+    </div>
+
+  </div>
 
 </body>
 
