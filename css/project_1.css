@@ -54,8 +54,18 @@ a {
 #gift, #character {
 	width: 168px;
 	height: 184px;
-	top:404px;
+	top:511px;
 	z-index: 10001px;
+}
+
+#yipee {
+	width: 168px;
+	height: 184px;
+	top:511px;
+	z-index: 10001px;
+	background-image: url("happy_jan.png");
+	position: absolute;
+	background-repeat: no-repeat;
 }
 
 .stationary {
